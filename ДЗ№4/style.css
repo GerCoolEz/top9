@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Madimi One';
+    
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 10px 200px;
+  }
+
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+nav > a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0.5px;
+}
+
+
+.buttons > button:nth-child(1) {
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+    padding: 10px 20px;
+    border: none;
+}
+
+
+.buttons > button:nth-child(2) {
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: darkblue;
+}
+
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   gap: 200px;
+   height: 90vh;
+    font-size: 20px;
+    
+    
+}
+
+main > div > h1 {
+    font-size: 60px;
+}
+
+
+
+main > img {
+    width: 40%;
+    justify-content: center;
+    align-items: end;
+    border-radius: 50px;
+}
+
+
+
+
+.line1 {
+    width: 100px;
+    height: 3px;
+    background-color: red;
+  }
+  
+  
+  
+  .lamp {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .box {
+    width: 250px;
+    padding: 20px;
+    box-shadow: 10px 16px 42px 0px rgba(0,0,0,0.56);
+    background-color: #ffff;
+  }
+  
+
+  
+  .lamp > div > img {
+    width: 140px;
+  }
+
+  .Moreabout {
+    display: flex;
+    padding: 100px 200px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff2f1;
+  }
+  
+  .text > h1 {
+    color: #333;
+    font-size: 40px;
+  }
+  
+  .text > a {
+    color: #ffd000;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+  }
